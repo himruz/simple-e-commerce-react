@@ -1,0 +1,18 @@
+.cart{
+    position: sticky;
+    top: 0;
+    padding: 30px 25px;
+}
+
+button.clear-cart {
+    border: 0;
+    width: 100%;
+    padding: 20px;
+    background: #ff2929;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}

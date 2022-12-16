@@ -1,0 +1,41 @@
+.review-item img{
+    width: 91px;
+}
+.review-item{
+    display: flex;
+    width: 571px;
+    margin: 21px auto;
+    border: 1px solid #95A0A7;
+    padding: 6px;
+    border-radius: 8px;
+}
+.review-details-container {
+    display: flex;
+    margin-left: 16px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.review-info p{
+    margin: 0;
+}
+
+.dlt-icon{
+    font-size: 31px;
+    color: #EB5757;
+}
+
+.dlt-btn{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(235, 87, 87, 0.3);
+    cursor: pointer;
+    transition: .3s;
+}
+.dlt-btn:hover{
+    background-color: rgba(235, 87, 87, 0.5);
+
+}
